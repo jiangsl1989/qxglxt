@@ -1,0 +1,11 @@
+server:
+  port: 8001
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/qxgl?zeroDateTimeBehavior=convertToNull&useUnicode=TRUE&characterEncoding=utf8&autoReconnect=true&serverTimezone=UTC
+    username: root
+    password: root
+logging:
+  level:
+    com.jiangsl.qxglxt.dao: DEBUG
